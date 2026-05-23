@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Academic Controller",
+  "version": "1.0.0",
+  "description": "Control académico para Claude",
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
