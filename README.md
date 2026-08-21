@@ -89,6 +89,4 @@ const CONFIG = Object.freeze({
 - `MutationObserver` para resiliencia frente a una SPA que remonta su propio DOM.
 - `localStorage` para persistencia de sesión entre recargas.
 
-## Licencia
 
-Uso educativo — FWD Costa Rica.
