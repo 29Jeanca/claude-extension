@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Claude Academic Controller",
+  "name": "FWD Academic Session Controller",
   "version": "1.0.0",
-  "description": "Control académico para Claude",
+  "description": "Gestor de sesiones de laboratorio para claude.ai: temporizador, presupuesto de tokens estimado y bloqueo de UI entre sesiones.",
   "content_scripts": [
     {
       "matches": ["https://claude.ai/*"],
       "js": ["content.js"],
-      "css": ["styles.css"]
+      "run_at": "document_idle"
     }
   ]
 }
